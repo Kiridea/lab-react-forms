@@ -32,6 +32,14 @@ function App() {
     const newStudentClone = structuredClone(students);
     newStudentClone.unshift(newStudent);
     setStudents(newStudentClone)
+
+    setFullName("");
+    setImage("");
+    setPhone("");
+    setProgram("");
+    setEmail("");
+    setGraduationYear(2023);
+    setGraduated(false);
   }
 
 
